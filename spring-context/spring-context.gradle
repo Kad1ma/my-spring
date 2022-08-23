@@ -8,6 +8,7 @@ dependencies {
 	api(project(":spring-beans"))
 	api(project(":spring-core"))
 	api(project(":spring-expression"))
+	implementation(project(":spring-instrument"))
 	optional(project(":spring-instrument"))
 	optional("jakarta.annotation:jakarta.annotation-api")
 	optional("jakarta.ejb:jakarta.ejb-api")
